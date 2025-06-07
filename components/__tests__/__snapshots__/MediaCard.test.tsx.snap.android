@@ -45,60 +45,6 @@ exports[`<MediaCard> should match snapshot 1`] = `
         }
       }
     />
-    <View
-      pointerEvents="box-none"
-      style={
-        {
-          "height": 375,
-          "marginBottom": 24,
-          "overflow": "hidden",
-        }
-      }
-    >
-      <ViewManagerAdapter_ExpoVideoView
-        onError={[Function]}
-        onFullscreenUpdate={[Function]}
-        onLoad={[Function]}
-        onLoadStart={[Function]}
-        onReadyForDisplay={[Function]}
-        onStatusUpdate={[Function]}
-        proxiedProperties={
-          {
-            "resizeMode": "mock",
-            "source": {
-              "headers": undefined,
-              "overridingExtension": null,
-              "uri": "uri",
-            },
-            "status": {
-              "isLooping": false,
-              "isMuted": false,
-              "rate": 1,
-              "shouldPlay": true,
-              "volume": 1,
-            },
-          }
-        }
-        style={
-          {
-            "bottom": 0,
-            "left": 0,
-            "position": "absolute",
-            "right": 0,
-            "top": 0,
-          }
-        }
-        videoStyle={
-          {
-            "bottom": 0,
-            "left": 0,
-            "position": "absolute",
-            "right": 0,
-            "top": 0,
-          }
-        }
-      />
-    </View>
     <Text
       style={
         {

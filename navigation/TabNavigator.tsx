@@ -3,6 +3,7 @@ import * as React from "react";
 import { Platform } from "react-native";
 import {
   NavigationProp,
+  ParamListBase,
   Route,
   RouteProp,
   getFocusedRouteNameFromRoute,
@@ -19,7 +20,7 @@ import InfoScreen from "../screens/InfoScreen";
 import Colors from "../constants/Colors";
 
 type TabNavigatorPropType = {
-  navigation: NavigationProp<any, string>;
+  navigation: NavigationProp<ParamListBase>;
   route: RouteProp<any, any>;
 };
 

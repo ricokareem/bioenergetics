@@ -19,7 +19,7 @@ import VideoSourceFiles from "../constants/VideoSourceFiles";
 type MediaCardProps = {
   title: string;
   playlist: number[];
-  showTimer?: boolean;
+  displayTimerOnScreen?: boolean;
 };
 
 const windowWidth = Dimensions.get("window").width;
@@ -42,7 +42,7 @@ const timeDisplay = ({ remainingTime }: { remainingTime: number }) => {
 export default function MediaCard({
   title,
   playlist,
-  showTimer,
+  displayTimerOnScreen,
 }: MediaCardProps): JSX.Element {
   const moviePlaylist = playlist.map((playlistMovieId) =>
     Movies.find((movie) => movie.id === playlistMovieId)
@@ -106,7 +106,7 @@ export default function MediaCard({
         onPlaybackStatusUpdate={(newStatus) => setStatus(newStatus)}
       />
       <Text style={{ marginBottom: 10 }}>{currentMovie?.description}</Text>
-      {!!showTimer && (
+      {!!displayTimerOnScreen && (
         <>
           <CountdownCircleTimer
             isPlaying={isPlaying}

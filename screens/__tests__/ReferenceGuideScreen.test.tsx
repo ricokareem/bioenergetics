@@ -1,7 +1,12 @@
-import React from "react";
 import { render } from "@testing-library/react-native";
 import ReferenceGuideScreen from "../ReferenceGuideScreen";
 import { SymptomsPlaylists } from "../../constants/MediaData";
+
+// Mock the font-loading hook/module to prevent forEach error
+jest.mock("expo-font", () => ({
+  useFonts: () => [true, null],
+  isLoaded: () => true,
+}));
 
 describe("<ReferenceGuideScreen>", () => {
   it("should match snapshot", () => {

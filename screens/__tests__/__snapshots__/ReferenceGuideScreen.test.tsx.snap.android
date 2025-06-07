@@ -16,6 +16,14 @@ exports[`<ReferenceGuideScreen> should match snapshot 1`] = `
   <RCTScrollView>
     <View>
       <View
+        accessibilityValue={
+          {
+            "max": undefined,
+            "min": undefined,
+            "now": undefined,
+            "text": undefined,
+          }
+        }
         accessible={true}
         focusable={true}
         onClick={[Function]}
@@ -93,13 +101,44 @@ exports[`<ReferenceGuideScreen> should match snapshot 1`] = `
                   }
                 }
               >
-                <Text />
+                <Text
+                  allowFontScaling={false}
+                  selectable={false}
+                  style={
+                    [
+                      {
+                        "color": "#fff",
+                        "fontSize": 28,
+                      },
+                      {
+                        "backgroundColor": "transparent",
+                      },
+                      {
+                        "fontFamily": "material",
+                        "fontStyle": "normal",
+                        "fontWeight": "normal",
+                      },
+                      {},
+                    ]
+                  }
+                  testID="iconIcon"
+                >
+                  
+                </Text>
               </View>
             </View>
           </View>
         </View>
       </View>
       <View
+        accessibilityValue={
+          {
+            "max": undefined,
+            "min": undefined,
+            "now": undefined,
+            "text": undefined,
+          }
+        }
         accessible={true}
         focusable={true}
         onClick={[Function]}
@@ -177,13 +216,44 @@ exports[`<ReferenceGuideScreen> should match snapshot 1`] = `
                   }
                 }
               >
-                <Text />
+                <Text
+                  allowFontScaling={false}
+                  selectable={false}
+                  style={
+                    [
+                      {
+                        "color": "#fff",
+                        "fontSize": 28,
+                      },
+                      {
+                        "backgroundColor": "transparent",
+                      },
+                      {
+                        "fontFamily": "material",
+                        "fontStyle": "normal",
+                        "fontWeight": "normal",
+                      },
+                      {},
+                    ]
+                  }
+                  testID="iconIcon"
+                >
+                  
+                </Text>
               </View>
             </View>
           </View>
         </View>
       </View>
       <View
+        accessibilityValue={
+          {
+            "max": undefined,
+            "min": undefined,
+            "now": undefined,
+            "text": undefined,
+          }
+        }
         accessible={true}
         focusable={true}
         onClick={[Function]}
@@ -261,13 +331,44 @@ exports[`<ReferenceGuideScreen> should match snapshot 1`] = `
                   }
                 }
               >
-                <Text />
+                <Text
+                  allowFontScaling={false}
+                  selectable={false}
+                  style={
+                    [
+                      {
+                        "color": "#fff",
+                        "fontSize": 28,
+                      },
+                      {
+                        "backgroundColor": "transparent",
+                      },
+                      {
+                        "fontFamily": "material",
+                        "fontStyle": "normal",
+                        "fontWeight": "normal",
+                      },
+                      {},
+                    ]
+                  }
+                  testID="iconIcon"
+                >
+                  
+                </Text>
               </View>
             </View>
           </View>
         </View>
       </View>
       <View
+        accessibilityValue={
+          {
+            "max": undefined,
+            "min": undefined,
+            "now": undefined,
+            "text": undefined,
+          }
+        }
         accessible={true}
         focusable={true}
         onClick={[Function]}
@@ -345,13 +446,44 @@ exports[`<ReferenceGuideScreen> should match snapshot 1`] = `
                   }
                 }
               >
-                <Text />
+                <Text
+                  allowFontScaling={false}
+                  selectable={false}
+                  style={
+                    [
+                      {
+                        "color": "#fff",
+                        "fontSize": 28,
+                      },
+                      {
+                        "backgroundColor": "transparent",
+                      },
+                      {
+                        "fontFamily": "material",
+                        "fontStyle": "normal",
+                        "fontWeight": "normal",
+                      },
+                      {},
+                    ]
+                  }
+                  testID="iconIcon"
+                >
+                  
+                </Text>
               </View>
             </View>
           </View>
         </View>
       </View>
       <View
+        accessibilityValue={
+          {
+            "max": undefined,
+            "min": undefined,
+            "now": undefined,
+            "text": undefined,
+          }
+        }
         accessible={true}
         focusable={true}
         onClick={[Function]}
@@ -429,13 +561,44 @@ exports[`<ReferenceGuideScreen> should match snapshot 1`] = `
                   }
                 }
               >
-                <Text />
+                <Text
+                  allowFontScaling={false}
+                  selectable={false}
+                  style={
+                    [
+                      {
+                        "color": "#fff",
+                        "fontSize": 28,
+                      },
+                      {
+                        "backgroundColor": "transparent",
+                      },
+                      {
+                        "fontFamily": "material",
+                        "fontStyle": "normal",
+                        "fontWeight": "normal",
+                      },
+                      {},
+                    ]
+                  }
+                  testID="iconIcon"
+                >
+                  
+                </Text>
               </View>
             </View>
           </View>
         </View>
       </View>
       <View
+        accessibilityValue={
+          {
+            "max": undefined,
+            "min": undefined,
+            "now": undefined,
+            "text": undefined,
+          }
+        }
         accessible={true}
         focusable={true}
         onClick={[Function]}
@@ -513,13 +676,44 @@ exports[`<ReferenceGuideScreen> should match snapshot 1`] = `
                   }
                 }
               >
-                <Text />
+                <Text
+                  allowFontScaling={false}
+                  selectable={false}
+                  style={
+                    [
+                      {
+                        "color": "#fff",
+                        "fontSize": 28,
+                      },
+                      {
+                        "backgroundColor": "transparent",
+                      },
+                      {
+                        "fontFamily": "material",
+                        "fontStyle": "normal",
+                        "fontWeight": "normal",
+                      },
+                      {},
+                    ]
+                  }
+                  testID="iconIcon"
+                >
+                  
+                </Text>
               </View>
             </View>
           </View>
         </View>
       </View>
       <View
+        accessibilityValue={
+          {
+            "max": undefined,
+            "min": undefined,
+            "now": undefined,
+            "text": undefined,
+          }
+        }
         accessible={true}
         focusable={true}
         onClick={[Function]}
@@ -597,13 +791,44 @@ exports[`<ReferenceGuideScreen> should match snapshot 1`] = `
                   }
                 }
               >
-                <Text />
+                <Text
+                  allowFontScaling={false}
+                  selectable={false}
+                  style={
+                    [
+                      {
+                        "color": "#fff",
+                        "fontSize": 28,
+                      },
+                      {
+                        "backgroundColor": "transparent",
+                      },
+                      {
+                        "fontFamily": "material",
+                        "fontStyle": "normal",
+                        "fontWeight": "normal",
+                      },
+                      {},
+                    ]
+                  }
+                  testID="iconIcon"
+                >
+                  
+                </Text>
               </View>
             </View>
           </View>
         </View>
       </View>
       <View
+        accessibilityValue={
+          {
+            "max": undefined,
+            "min": undefined,
+            "now": undefined,
+            "text": undefined,
+          }
+        }
         accessible={true}
         focusable={true}
         onClick={[Function]}
@@ -681,13 +906,44 @@ exports[`<ReferenceGuideScreen> should match snapshot 1`] = `
                   }
                 }
               >
-                <Text />
+                <Text
+                  allowFontScaling={false}
+                  selectable={false}
+                  style={
+                    [
+                      {
+                        "color": "#fff",
+                        "fontSize": 28,
+                      },
+                      {
+                        "backgroundColor": "transparent",
+                      },
+                      {
+                        "fontFamily": "material",
+                        "fontStyle": "normal",
+                        "fontWeight": "normal",
+                      },
+                      {},
+                    ]
+                  }
+                  testID="iconIcon"
+                >
+                  
+                </Text>
               </View>
             </View>
           </View>
         </View>
       </View>
       <View
+        accessibilityValue={
+          {
+            "max": undefined,
+            "min": undefined,
+            "now": undefined,
+            "text": undefined,
+          }
+        }
         accessible={true}
         focusable={true}
         onClick={[Function]}
@@ -765,13 +1021,44 @@ exports[`<ReferenceGuideScreen> should match snapshot 1`] = `
                   }
                 }
               >
-                <Text />
+                <Text
+                  allowFontScaling={false}
+                  selectable={false}
+                  style={
+                    [
+                      {
+                        "color": "#fff",
+                        "fontSize": 28,
+                      },
+                      {
+                        "backgroundColor": "transparent",
+                      },
+                      {
+                        "fontFamily": "material",
+                        "fontStyle": "normal",
+                        "fontWeight": "normal",
+                      },
+                      {},
+                    ]
+                  }
+                  testID="iconIcon"
+                >
+                  
+                </Text>
               </View>
             </View>
           </View>
         </View>
       </View>
       <View
+        accessibilityValue={
+          {
+            "max": undefined,
+            "min": undefined,
+            "now": undefined,
+            "text": undefined,
+          }
+        }
         accessible={true}
         focusable={true}
         onClick={[Function]}
@@ -849,13 +1136,44 @@ exports[`<ReferenceGuideScreen> should match snapshot 1`] = `
                   }
                 }
               >
-                <Text />
+                <Text
+                  allowFontScaling={false}
+                  selectable={false}
+                  style={
+                    [
+                      {
+                        "color": "#fff",
+                        "fontSize": 28,
+                      },
+                      {
+                        "backgroundColor": "transparent",
+                      },
+                      {
+                        "fontFamily": "material",
+                        "fontStyle": "normal",
+                        "fontWeight": "normal",
+                      },
+                      {},
+                    ]
+                  }
+                  testID="iconIcon"
+                >
+                  
+                </Text>
               </View>
             </View>
           </View>
         </View>
       </View>
       <View
+        accessibilityValue={
+          {
+            "max": undefined,
+            "min": undefined,
+            "now": undefined,
+            "text": undefined,
+          }
+        }
         accessible={true}
         focusable={true}
         onClick={[Function]}
@@ -933,13 +1251,44 @@ exports[`<ReferenceGuideScreen> should match snapshot 1`] = `
                   }
                 }
               >
-                <Text />
+                <Text
+                  allowFontScaling={false}
+                  selectable={false}
+                  style={
+                    [
+                      {
+                        "color": "#fff",
+                        "fontSize": 28,
+                      },
+                      {
+                        "backgroundColor": "transparent",
+                      },
+                      {
+                        "fontFamily": "material",
+                        "fontStyle": "normal",
+                        "fontWeight": "normal",
+                      },
+                      {},
+                    ]
+                  }
+                  testID="iconIcon"
+                >
+                  
+                </Text>
               </View>
             </View>
           </View>
         </View>
       </View>
       <View
+        accessibilityValue={
+          {
+            "max": undefined,
+            "min": undefined,
+            "now": undefined,
+            "text": undefined,
+          }
+        }
         accessible={true}
         focusable={true}
         onClick={[Function]}
@@ -1017,13 +1366,44 @@ exports[`<ReferenceGuideScreen> should match snapshot 1`] = `
                   }
                 }
               >
-                <Text />
+                <Text
+                  allowFontScaling={false}
+                  selectable={false}
+                  style={
+                    [
+                      {
+                        "color": "#fff",
+                        "fontSize": 28,
+                      },
+                      {
+                        "backgroundColor": "transparent",
+                      },
+                      {
+                        "fontFamily": "material",
+                        "fontStyle": "normal",
+                        "fontWeight": "normal",
+                      },
+                      {},
+                    ]
+                  }
+                  testID="iconIcon"
+                >
+                  
+                </Text>
               </View>
             </View>
           </View>
         </View>
       </View>
       <View
+        accessibilityValue={
+          {
+            "max": undefined,
+            "min": undefined,
+            "now": undefined,
+            "text": undefined,
+          }
+        }
         accessible={true}
         focusable={true}
         onClick={[Function]}
@@ -1101,13 +1481,44 @@ exports[`<ReferenceGuideScreen> should match snapshot 1`] = `
                   }
                 }
               >
-                <Text />
+                <Text
+                  allowFontScaling={false}
+                  selectable={false}
+                  style={
+                    [
+                      {
+                        "color": "#fff",
+                        "fontSize": 28,
+                      },
+                      {
+                        "backgroundColor": "transparent",
+                      },
+                      {
+                        "fontFamily": "material",
+                        "fontStyle": "normal",
+                        "fontWeight": "normal",
+                      },
+                      {},
+                    ]
+                  }
+                  testID="iconIcon"
+                >
+                  
+                </Text>
               </View>
             </View>
           </View>
         </View>
       </View>
       <View
+        accessibilityValue={
+          {
+            "max": undefined,
+            "min": undefined,
+            "now": undefined,
+            "text": undefined,
+          }
+        }
         accessible={true}
         focusable={true}
         onClick={[Function]}
@@ -1185,13 +1596,44 @@ exports[`<ReferenceGuideScreen> should match snapshot 1`] = `
                   }
                 }
               >
-                <Text />
+                <Text
+                  allowFontScaling={false}
+                  selectable={false}
+                  style={
+                    [
+                      {
+                        "color": "#fff",
+                        "fontSize": 28,
+                      },
+                      {
+                        "backgroundColor": "transparent",
+                      },
+                      {
+                        "fontFamily": "material",
+                        "fontStyle": "normal",
+                        "fontWeight": "normal",
+                      },
+                      {},
+                    ]
+                  }
+                  testID="iconIcon"
+                >
+                  
+                </Text>
               </View>
             </View>
           </View>
         </View>
       </View>
       <View
+        accessibilityValue={
+          {
+            "max": undefined,
+            "min": undefined,
+            "now": undefined,
+            "text": undefined,
+          }
+        }
         accessible={true}
         focusable={true}
         onClick={[Function]}
@@ -1269,7 +1711,30 @@ exports[`<ReferenceGuideScreen> should match snapshot 1`] = `
                   }
                 }
               >
-                <Text />
+                <Text
+                  allowFontScaling={false}
+                  selectable={false}
+                  style={
+                    [
+                      {
+                        "color": "#fff",
+                        "fontSize": 28,
+                      },
+                      {
+                        "backgroundColor": "transparent",
+                      },
+                      {
+                        "fontFamily": "material",
+                        "fontStyle": "normal",
+                        "fontWeight": "normal",
+                      },
+                      {},
+                    ]
+                  }
+                  testID="iconIcon"
+                >
+                  
+                </Text>
               </View>
             </View>
           </View>

@@ -1,6 +1,6 @@
 import React from "react";
 import { FlatList, ListRenderItem, ListRenderItemInfo } from "react-native";
-import { NavigationProp } from "@react-navigation/native";
+import { NavigationProp, ParamListBase } from "@react-navigation/native";
 import {
   WhiteContainer,
   ListText,
@@ -10,7 +10,7 @@ import {
 import { Movies } from "../constants/MediaData";
 
 type NavPropsType = {
-  navigation: NavigationProp<any>;
+  navigation: NavigationProp<ParamListBase>;
 };
 
 interface ItemType extends ListRenderItemInfo<unknown> {
