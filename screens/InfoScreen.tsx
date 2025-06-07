@@ -1,4 +1,3 @@
-import React, { ReactElement } from "react";
 import { NavigationProp, ParamListBase } from "@react-navigation/native";
 import { ListItem } from "react-native-elements";
 import { ListText, OrangeScrollingContainer } from "../components";
