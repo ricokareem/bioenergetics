@@ -1,4 +1,3 @@
-import React from "react";
 import { render } from "@testing-library/react-native";
 import CardStackScreen from "../CardStackScreen";
 import { Movies } from "../../constants/MediaData";

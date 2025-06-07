@@ -1,12 +1,12 @@
 import React, { ReactElement } from "react";
 import { ScrollView } from "react-native";
-import { NavigationProp } from "@react-navigation/native";
+import { NavigationProp, ParamListBase } from "@react-navigation/native";
 import { ListItem } from "react-native-elements";
 import { SymptomsPlaylists } from "../constants/MediaData";
 import { WhiteContainer, ListText } from "../components";
 
 type NavPropsType = {
-  navigation: NavigationProp<any>;
+  navigation: NavigationProp<ParamListBase>;
 };
 
 function ReferenceGuideScreen({ navigation }: NavPropsType): ReactElement {
@@ -27,7 +27,7 @@ function ReferenceGuideScreen({ navigation }: NavPropsType): ReactElement {
               navigation.navigate(item.screen, {
                 title: item.title,
                 playlist: item.movieIds,
-                showTimer: true,
+                displayTimerOnScreen: true,
               })
             }
             bottomDivider

@@ -1,10 +1,10 @@
 import React, { ReactElement } from "react";
-import { NavigationProp } from "@react-navigation/native";
+import { NavigationProp, ParamListBase } from "@react-navigation/native";
 import { ListItem } from "react-native-elements";
 import { OrangeScrollingContainer, ListText } from "../components";
 
 type NavPropsType = {
-  navigation: NavigationProp<any>;
+  navigation: NavigationProp<ParamListBase>;
 };
 
 const group1 = [

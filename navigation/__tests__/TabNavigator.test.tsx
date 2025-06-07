@@ -1,10 +1,19 @@
-import React from "react";
-import { NavigationContainer, NavigationProp } from "@react-navigation/native";
+import {
+  NavigationContainer,
+  NavigationProp,
+  ParamListBase,
+} from "@react-navigation/native";
 import { render, screen, fireEvent, act } from "@testing-library/react-native";
 import TabNavigator from "../TabNavigator";
 
 import "react-native-gesture-handler/jestSetup";
 import { Platform } from "react-native";
+
+// Mock the font-loading hook/module to prevent forEach error
+jest.mock("expo-font", () => ({
+  useFonts: () => [true, null],
+  isLoaded: () => true,
+}));
 
 jest.mock("react-native-reanimated", () => {
   // eslint-disable-next-line @typescript-eslint/no-var-requires
@@ -18,7 +27,7 @@ jest.mock("react-native-reanimated", () => {
 });
 
 // Silence the warning: Animated: `useNativeDriver` is not supported because the native animated module is missing
-jest.mock("react-native/Libraries/Animated/NativeAnimatedHelper");
+// jest.mock("react-native/Libraries/Animated/NativeAnimatedHelper");
 
 describe("<TabNavigator>", () => {
   const setOptionsMock = () => jest.fn;
@@ -32,7 +41,7 @@ describe("<TabNavigator>", () => {
             {
               setOptions: setOptionsMock,
               routes: ["Home", "ReferenceGuide"],
-            } as NavigationProp
+            } as unknown as NavigationProp<ParamListBase>
           }
         />
       </NavigationContainer>

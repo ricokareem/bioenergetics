@@ -1,15 +1,14 @@
 {
   "scripts": {
-    "start": "expo start --dev-client",
+    "start": "NODE_OPTIONS='--openssl-legacy-provider' npx expo start --dev-client",
     "stop": "pkill -f expo-cli",
-    "android": "expo run:android",
-    "ios": "expo run:ios",
-    "web": "expo start --web",
+    "android": "NODE_OPTIONS='--openssl-legacy-provider' npx expo run:android",
+    "ios": "NODE_OPTIONS='--openssl-legacy-provider' npx expo run:ios",
+    "web": "NODE_OPTIONS='--openssl-legacy-provider' npx expo start --web",
     "test": "jest",
     "typecheck": "tsc && tsc -p cypress",
     "lint": "eslint -c .eslintrc.json . --fix --ext .js,.jsx,.ts,.tsx",
-    "cypress:ci": "expo start --web & wait-on http-get://localhost:19006 && cypress run",
-    "eject": "expo eject"
+    "cypress:ci": "NODE_OPTIONS='--openssl-legacy-provider' npx expo start --web & wait-on http-get://localhost:19006 && cypress run"
   },
   "jest": {
     "projects": [
@@ -97,7 +96,6 @@
     "jest-expo": "~52.0.6",
     "jest-junit": "^15.0.0",
     "prettier": "^2.8.3",
-    "react-dom": "18.0.0",
     "typescript": "^5.3.3",
     "wait-on": "^7.0.1"
   },

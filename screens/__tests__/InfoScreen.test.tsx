@@ -1,6 +1,11 @@
-import React from "react";
 import { render } from "@testing-library/react-native";
 import InfoScreen from "../InfoScreen";
+
+// Mock the font-loading hook/module to prevent forEach error
+jest.mock("expo-font", () => ({
+  useFonts: () => [true, null],
+  isLoaded: () => true,
+}));
 
 describe("<InfoScreen>", () => {
   it("should match snapshot", () => {
